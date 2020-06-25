@@ -22,6 +22,7 @@ public class HomePage extends TestBase{
 	WebElement hutRewardLink;
 	
 	
+	
 
 	//Initializing the page object
 	
