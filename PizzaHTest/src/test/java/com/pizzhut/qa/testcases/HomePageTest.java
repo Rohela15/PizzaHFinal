@@ -28,6 +28,7 @@ public class HomePageTest extends TestBase {
 		dealPage = new DealPage();
 		joinPage = new JoinPage();
 		hutrewardPage = new HutRewardPage();
+		dealPage = homePage.clickOnDealsLinks();
 
 	}
 

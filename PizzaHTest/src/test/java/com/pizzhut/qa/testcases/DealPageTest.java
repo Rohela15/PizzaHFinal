@@ -8,6 +8,7 @@ import com.pizzahut.qa.pages.DealPage;
 import com.pizzahut.qa.pages.HomePage;
 import com.pizzahut.qa.pages.HutRewardPage;
 import com.pizzahut.qa.pages.JoinPage;
+import com.pizzahut.qa.pages.OptionsPage;
 import com.pizzhut.qa.base.TestBase;
 
 public class DealPageTest extends TestBase {
@@ -15,6 +16,7 @@ public class DealPageTest extends TestBase {
 	DealPage dealPage;
 	JoinPage joinPage;
 	HutRewardPage hutrewardPage;
+	OptionsPage optionspage;
 
 	public DealPageTest() {
 		super();
@@ -27,6 +29,8 @@ public class DealPageTest extends TestBase {
 		dealPage = new DealPage();
 		joinPage = new JoinPage();
 		hutrewardPage = new HutRewardPage();
+		homePage=new HomePage();
+		dealPage=homePage.clickOnDealsLinks();
 
 	}
 
@@ -40,6 +44,13 @@ public class DealPageTest extends TestBase {
 	public void twitterIconTest() {
 		boolean twit = dealPage.verifyTwitterIcon();
 		Assert.assertEquals(twit, true, "twitter icon is not visible");
+		
+	}
+	
+	@Test
+	public void clickonDealOption() {
+		optionspage=dealPage.clickOnDealsLinks();
+		
 	}
 
 	@AfterMethod
