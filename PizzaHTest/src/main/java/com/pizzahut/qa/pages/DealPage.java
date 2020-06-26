@@ -15,7 +15,7 @@ public class DealPage extends TestBase{
 	@FindBy(xpath="//div[@class='col-xs-12 f-icon']//a[@class='red-twitter-icon img-circle']")
 	WebElement twitterIcon;
 	
-	@FindBy(id="productATO0")
+	@FindBy(id="productATO0wrong")
 	WebElement deal1option;
 	
 	

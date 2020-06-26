@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jun 25 23:22:18 CDT 2020</td>
+<td>Started on:</td><td>Fri Jun 26 01:01:39 CDT 2020</td>
 </tr>
-<tr><td>Total time:</td><td>184 seconds (184759 ms)</td>
+<tr><td>Total time:</td><td>114 seconds (114924 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,16 +75,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.pizzhut.qa.testcases.OptionsPageTest.ValidateAddressInput()'><b>ValidateAddressInput</b><br>Test class: com.pizzhut.qa.testcases.OptionsPageTest<br>Parameters: 1550 E, Higgins Rd # 120, Elk Grove Village, IL, 60007.0</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;btn ph-ordernow ng-scope btn-primary&apos;]&quot;}
+<td title='com.pizzhut.qa.testcases.DealPageTest.clickonDealOption()'><b>clickonDealOption</b><br>Test class: com.pizzhut.qa.testcases.DealPageTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#productATO0wrong&quot;}
   (Session info: chrome=83.0.4103.116)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;LAPTOP-GPNPFFK4&apos;, ip: &apos;192.168.1.71&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\manju\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54363}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e8100deb14f0dc9380b04381aaef857d
-*** Element info: {Using=xpath, value=//a[@class=&apos;btn ph-ordernow ng-scope btn-primary&apos;]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\manju\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b57e28cff0b6c5f6e1bb963e4d76d4ce
+*** Element info: {Using=id, value=productATO0wrong}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -96,14 +96,21 @@ Session ID: e8100deb14f0dc9380b04381aaef857d
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy7.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at com.pizzahut.qa.pages.OptionsPage.verifyAddressInputEnterToppingPage(OptionsPage.java:79)
-	at com.pizzhut.qa.testcases.OptionsPageTest.ValidateAddressInput(OptionsPageTest.java:70)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.pizzahut.qa.pages.DealPage.clickOnDealsOption(DealPage.java:37)
+	at com.pizzhut.qa.testcases.DealPageTest.clickonDealOption(DealPageTest.java:52)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -129,16 +136,16 @@ Session ID: e8100deb14f0dc9380b04381aaef857d
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace521331027", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace521331027'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;btn ph-ordernow ng-scope btn-primary&apos;]&quot;}
+</pre></div><a href='#' onClick='toggleBox("stack-trace743648472", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace743648472'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#productATO0wrong&quot;}
   (Session info: chrome=83.0.4103.116)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;LAPTOP-GPNPFFK4&apos;, ip: &apos;192.168.1.71&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\manju\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54363}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e8100deb14f0dc9380b04381aaef857d
-*** Element info: {Using=xpath, value=//a[@class=&apos;btn ph-ordernow ng-scope btn-primary&apos;]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\manju\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b57e28cff0b6c5f6e1bb963e4d76d4ce
+*** Element info: {Using=id, value=productATO0wrong}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -150,14 +157,21 @@ Session ID: e8100deb14f0dc9380b04381aaef857d
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy7.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at com.pizzahut.qa.pages.OptionsPage.verifyAddressInputEnterToppingPage(OptionsPage.java:79)
-	at com.pizzhut.qa.testcases.OptionsPageTest.ValidateAddressInput(OptionsPageTest.java:70)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.pizzahut.qa.pages.DealPage.clickOnDealsOption(DealPage.java:37)
+	at com.pizzhut.qa.testcases.DealPageTest.clickonDealOption(DealPageTest.java:52)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -184,8 +198,8 @@ Session ID: e8100deb14f0dc9380b04381aaef857d
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>63</td>
-<td>com.pizzhut.qa.testcases.OptionsPageTest@17c386de</td></tr>
+<td>61</td>
+<td>com.pizzhut.qa.testcases.DealPageTest@1d548a08</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -195,25 +209,15 @@ Session ID: e8100deb14f0dc9380b04381aaef857d
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.pizzhut.qa.testcases.OptionsPageTest.ValidateAddressInput()'><b>ValidateAddressInput</b><br>Test class: com.pizzhut.qa.testcases.OptionsPageTest<br>Parameters: 372 southbury ct, unit b1, schaumburg, IL, 60193.0</td>
+<td title='com.pizzhut.qa.testcases.DealPageTest.facebookIconTest()'><b>facebookIconTest</b><br>Test class: com.pizzhut.qa.testcases.DealPageTest</td>
 <td></td>
-<td>6</td>
-<td>com.pizzhut.qa.testcases.OptionsPageTest@17c386de</td></tr>
+<td>5</td>
+<td>com.pizzhut.qa.testcases.DealPageTest@1d548a08</td></tr>
 <tr>
-<td title='com.pizzhut.qa.testcases.OptionsPageTest.ValidateCarryoutbutton()'><b>ValidateCarryoutbutton</b><br>Test class: com.pizzhut.qa.testcases.OptionsPageTest</td>
+<td title='com.pizzhut.qa.testcases.DealPageTest.twitterIconTest()'><b>twitterIconTest</b><br>Test class: com.pizzhut.qa.testcases.DealPageTest</td>
 <td></td>
 <td>0</td>
-<td>com.pizzhut.qa.testcases.OptionsPageTest@17c386de</td></tr>
-<tr>
-<td title='com.pizzhut.qa.testcases.OptionsPageTest.ValidateDeliverybutton()'><b>ValidateDeliverybutton</b><br>Test class: com.pizzhut.qa.testcases.OptionsPageTest</td>
-<td></td>
-<td>0</td>
-<td>com.pizzhut.qa.testcases.OptionsPageTest@17c386de</td></tr>
-<tr>
-<td title='com.pizzhut.qa.testcases.OptionsPageTest.ValidateOptionPageTitle()'><b>ValidateOptionPageTitle</b><br>Test class: com.pizzhut.qa.testcases.OptionsPageTest</td>
-<td></td>
-<td>0</td>
-<td>com.pizzhut.qa.testcases.OptionsPageTest@17c386de</td></tr>
+<td>com.pizzhut.qa.testcases.DealPageTest@1d548a08</td></tr>
 </table><p>
 </body>
 </html>

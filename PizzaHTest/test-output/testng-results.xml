@@ -1,141 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="184759" started-at="2020-06-26T04:22:18Z" finished-at="2020-06-26T04:25:23Z">
+  <suite name="Default suite" duration-ms="114924" started-at="2020-06-26T06:01:39Z" finished-at="2020-06-26T06:03:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="184759" started-at="2020-06-26T04:22:18Z" finished-at="2020-06-26T04:25:23Z">
-      <class name="com.pizzhut.qa.testcases.OptionsPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pizzhut.qa.testcases.OptionsPageTest@17c386de]" name="setUp" is-config="true" duration-ms="26400" started-at="2020-06-25T23:22:18Z" finished-at="2020-06-25T23:22:44Z">
+    <test name="Default test" duration-ms="114924" started-at="2020-06-26T06:01:39Z" finished-at="2020-06-26T06:03:34Z">
+      <class name="com.pizzhut.qa.testcases.DealPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pizzhut.qa.testcases.DealPageTest@1d548a08]" name="setUp" is-config="true" duration-ms="17356" started-at="2020-06-26T01:01:39Z" finished-at="2020-06-26T01:01:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidateOptionPageTitle()[pri:1, instance:com.pizzhut.qa.testcases.OptionsPageTest@17c386de]" name="ValidateOptionPageTitle" duration-ms="23" started-at="2020-06-25T23:22:44Z" finished-at="2020-06-25T23:22:44Z">
+        <test-method status="PASS" signature="facebookIconTest()[pri:1, instance:com.pizzhut.qa.testcases.DealPageTest@1d548a08]" name="facebookIconTest" duration-ms="5233" started-at="2020-06-26T01:01:57Z" finished-at="2020-06-26T01:02:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidateOptionPageTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pizzhut.qa.testcases.OptionsPageTest@17c386de]" name="tearDown" is-config="true" duration-ms="2024" started-at="2020-06-25T23:22:44Z" finished-at="2020-06-25T23:22:47Z">
+        </test-method> <!-- facebookIconTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pizzhut.qa.testcases.DealPageTest@1d548a08]" name="tearDown" is-config="true" duration-ms="759" started-at="2020-06-26T01:02:02Z" finished-at="2020-06-26T01:02:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pizzhut.qa.testcases.OptionsPageTest@17c386de]" name="setUp" is-config="true" duration-ms="20632" started-at="2020-06-25T23:22:47Z" finished-at="2020-06-25T23:23:07Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pizzhut.qa.testcases.DealPageTest@1d548a08]" name="setUp" is-config="true" duration-ms="12801" started-at="2020-06-26T01:02:03Z" finished-at="2020-06-26T01:02:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidateDeliverybutton()[pri:2, instance:com.pizzhut.qa.testcases.OptionsPageTest@17c386de]" name="ValidateDeliverybutton" duration-ms="99" started-at="2020-06-25T23:23:07Z" finished-at="2020-06-25T23:23:07Z">
+        <test-method status="PASS" signature="twitterIconTest()[pri:2, instance:com.pizzhut.qa.testcases.DealPageTest@1d548a08]" name="twitterIconTest" duration-ms="970" started-at="2020-06-26T01:02:16Z" finished-at="2020-06-26T01:02:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidateDeliverybutton -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pizzhut.qa.testcases.OptionsPageTest@17c386de]" name="tearDown" is-config="true" duration-ms="1216" started-at="2020-06-25T23:23:07Z" finished-at="2020-06-25T23:23:08Z">
+        </test-method> <!-- twitterIconTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pizzhut.qa.testcases.DealPageTest@1d548a08]" name="tearDown" is-config="true" duration-ms="1313" started-at="2020-06-26T01:02:17Z" finished-at="2020-06-26T01:02:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pizzhut.qa.testcases.OptionsPageTest@17c386de]" name="setUp" is-config="true" duration-ms="21611" started-at="2020-06-25T23:23:08Z" finished-at="2020-06-25T23:23:30Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pizzhut.qa.testcases.DealPageTest@1d548a08]" name="setUp" is-config="true" duration-ms="14507" started-at="2020-06-26T01:02:18Z" finished-at="2020-06-26T01:02:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidateCarryoutbutton()[pri:3, instance:com.pizzhut.qa.testcases.OptionsPageTest@17c386de]" name="ValidateCarryoutbutton" duration-ms="436" started-at="2020-06-25T23:23:30Z" finished-at="2020-06-25T23:23:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateCarryoutbutton -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pizzhut.qa.testcases.OptionsPageTest@17c386de]" name="tearDown" is-config="true" duration-ms="1637" started-at="2020-06-25T23:23:31Z" finished-at="2020-06-25T23:23:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pizzhut.qa.testcases.OptionsPageTest@17c386de]" name="setUp" is-config="true" duration-ms="21745" started-at="2020-06-25T23:23:33Z" finished-at="2020-06-25T23:23:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidateAddressInput(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.pizzhut.qa.testcases.OptionsPageTest@17c386de]" name="ValidateAddressInput" duration-ms="6360" started-at="2020-06-25T23:23:55Z" data-provider="getPizzaHutestData" finished-at="2020-06-25T23:24:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[372 southbury ct]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[unit b1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[schaumburg]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[IL]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[60193.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateAddressInput -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pizzhut.qa.testcases.OptionsPageTest@17c386de]" name="tearDown" is-config="true" duration-ms="990" started-at="2020-06-25T23:24:01Z" finished-at="2020-06-25T23:24:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pizzhut.qa.testcases.OptionsPageTest@17c386de]" name="setUp" is-config="true" duration-ms="15709" started-at="2020-06-25T23:24:02Z" finished-at="2020-06-25T23:24:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="ValidateAddressInput(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.pizzhut.qa.testcases.OptionsPageTest@17c386de]" name="ValidateAddressInput" duration-ms="63710" started-at="2020-06-25T23:24:18Z" data-provider="getPizzaHutestData" finished-at="2020-06-25T23:25:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1550 E]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Higgins Rd # 120]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Elk Grove Village]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[IL]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[60007.0]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="FAIL" signature="clickonDealOption()[pri:3, instance:com.pizzhut.qa.testcases.DealPageTest@1d548a08]" name="clickonDealOption" duration-ms="61126" started-at="2020-06-26T01:02:32Z" finished-at="2020-06-26T01:03:34Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='btn ph-ordernow ng-scope btn-primary']"}
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#productATO0wrong"}
   (Session info: chrome=83.0.4103.116)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-GPNPFFK4', ip: '192.168.1.71', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\manju\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54363}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e8100deb14f0dc9380b04381aaef857d
-*** Element info: {Using=xpath, value=//a[@class='btn ph-ordernow ng-scope btn-primary']}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\manju\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b57e28cff0b6c5f6e1bb963e4d76d4ce
+*** Element info: {Using=id, value=productATO0wrong}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='btn ph-ordernow ng-scope btn-primary']"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#productATO0wrong"}
   (Session info: chrome=83.0.4103.116)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-GPNPFFK4', ip: '192.168.1.71', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\manju\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54363}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e8100deb14f0dc9380b04381aaef857d
-*** Element info: {Using=xpath, value=//a[@class='btn ph-ordernow ng-scope btn-primary']}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\manju\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b57e28cff0b6c5f6e1bb963e4d76d4ce
+*** Element info: {Using=id, value=productATO0wrong}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -147,14 +69,21 @@ Session ID: e8100deb14f0dc9380b04381aaef857d
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy7.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at com.pizzahut.qa.pages.OptionsPage.verifyAddressInputEnterToppingPage(OptionsPage.java:79)
-	at com.pizzhut.qa.testcases.OptionsPageTest.ValidateAddressInput(OptionsPageTest.java:70)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.pizzahut.qa.pages.DealPage.clickOnDealsOption(DealPage.java:37)
+	at com.pizzhut.qa.testcases.DealPageTest.clickonDealOption(DealPageTest.java:52)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -185,12 +114,12 @@ Session ID: e8100deb14f0dc9380b04381aaef857d
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidateAddressInput -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pizzhut.qa.testcases.OptionsPageTest@17c386de]" name="tearDown" is-config="true" duration-ms="909" started-at="2020-06-25T23:25:22Z" finished-at="2020-06-25T23:25:23Z">
+        </test-method> <!-- clickonDealOption -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pizzhut.qa.testcases.DealPageTest@1d548a08]" name="tearDown" is-config="true" duration-ms="816" started-at="2020-06-26T01:03:34Z" finished-at="2020-06-26T01:03:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.pizzhut.qa.testcases.OptionsPageTest -->
+      </class> <!-- com.pizzhut.qa.testcases.DealPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
