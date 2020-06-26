@@ -34,22 +34,22 @@ public class DealPageTest extends TestBase {
 
 	}
 
-	@Test
+	@Test(priority=1)
 	public void facebookIconTest() {
 		dealPage.verifyFBIcon();
 
 	}
 
-	@Test
+	@Test(priority=2)
 	public void twitterIconTest() {
 		boolean twit = dealPage.verifyTwitterIcon();
 		Assert.assertEquals(twit, true, "twitter icon is not visible");
 		
 	}
-	
-	@Test
+	//below method connects deal page to options page
+	@Test(priority=3)
 	public void clickonDealOption() {
-		optionspage=dealPage.clickOnDealsLinks();
+		optionspage=dealPage.clickOnDealsOption();
 		
 	}
 
