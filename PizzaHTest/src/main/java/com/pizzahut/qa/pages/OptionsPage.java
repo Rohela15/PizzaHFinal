@@ -8,6 +8,8 @@ import com.pizzhut.qa.base.TestBase;
 
 public class OptionsPage extends TestBase {
 	
+	
+	
 	@FindBy(xpath="//h1[@class='ph-margin-bottom-0 ph-margin-left-15 hidden-xs']")
 	WebElement FindStoreText;
 	
