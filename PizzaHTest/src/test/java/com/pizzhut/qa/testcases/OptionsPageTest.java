@@ -3,27 +3,37 @@ package com.pizzhut.qa.testcases;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import com.pizzahut.qa.pages.DealPage;
+import com.pizzahut.qa.pages.HomePage;
 import com.pizzahut.qa.pages.OptionsPage;
 import com.pizzahut.qa.pages.ToppingsSelectionPage;
 import com.pizzhut.qa.base.TestBase;
+import com.pizzhut.qa.util.TestUtil;
 
 public class OptionsPageTest extends TestBase {
 	OptionsPage optionsPage ;
-	
+	DealPage dealPage;
+	HomePage homePage;
 	ToppingsSelectionPage toppingpage;
+	
+	String sheetName="address";
 	
 	//create optionpage constructor to call parent/super call constructor where properties are initialised
 	public OptionsPageTest() {
 		super();
 	}
-	ToppingsSelectionPage toppingsSelectionPage;
+	
 	@BeforeMethod
 	public void setUp() {
 		initialization();
-		
-		 optionsPage = new OptionsPage();
+		homePage=new HomePage();
+		dealPage = new DealPage();
+	 optionsPage = new OptionsPage();
+	 dealPage=homePage.clickOnDealsLinks();
+	 optionsPage=dealPage.clickOnDealsOption();
 	}
 	
 
@@ -45,10 +55,18 @@ public class OptionsPageTest extends TestBase {
 		Assert.assertTrue(flag);
 	}
 	
-	@Test (priority=4)
-	public void ValidateAddressInput() {
-		toppingpage=toppingsSelectionPage=	optionsPage.verifyAddressInput(prop.getProperty("address1"), prop.getProperty("address2"), prop.getProperty("city"), prop.getProperty("state"), prop.getProperty("zipcode"));
-		 
+	@DataProvider
+	public Object[][] getPizzaHuTestData(){
+		Object data[][] = TestUtil.getTestData(sheetName);
+		return data;
+	}
+	
+	
+	
+	@Test (priority=4, dataProvider="getPizzaHuTestData")
+	public void ValidateAddressInput(String address1, String address2, String city, String state,String zipcode) {
+		//toppingpage=optionsPage.verifyAddressInputEnterToppingPage(prop.getProperty("address1"), prop.getProperty("address2"), prop.getProperty("city"), prop.getProperty("state"), prop.getProperty("zipcode"));
+		toppingpage= optionsPage.verifyAddressInputEnterToppingPage(address1, address2, city, state, zipcode);
 		
 	}
 	

@@ -33,7 +33,7 @@ public DealPage() {
 		
 	}
 	
-	public OptionsPage clickOnDealsLinks() {
+	public OptionsPage clickOnDealsOption() {
 		deal1option.click();
 		return new OptionsPage();
 	}
