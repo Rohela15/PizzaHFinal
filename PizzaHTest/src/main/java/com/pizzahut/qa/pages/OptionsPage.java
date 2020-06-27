@@ -12,7 +12,7 @@ public class OptionsPage extends TestBase {
 	
 	
 	@FindBy(xpath="//h1[@class='ph-margin-bottom-0 ph-margin-left-15 hidden-xs']")
-	@CacheLookup
+	//@CacheLookup
 	WebElement FindStoreText;
 	
 	@FindBy(id="find-occasion-delivery")
