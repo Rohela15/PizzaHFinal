@@ -114,6 +114,11 @@ public class HomePage extends TestBase{
 	public boolean validateDrinksLink() {
 		return drinksLink.isEnabled();
 	}
+	
+	public DrinksPage clickOnDrinksPage() {
+		drinksLink.click();
+		return new DrinksPage();
+	}
 		
 	
 	//no void as it will return new dealpage

@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import com.pizzahut.qa.pages.DealPage;
 import com.pizzahut.qa.pages.DessertPage;
+import com.pizzahut.qa.pages.DrinksPage;
 import com.pizzahut.qa.pages.HomePage;
 import com.pizzahut.qa.pages.HutRewardPage;
 import com.pizzahut.qa.pages.JoinPage;
@@ -30,6 +31,7 @@ public class HomePageTest extends TestBase {
 	SidesPage sidesPage;
 	PastaPage pastaPage;
 	DessertPage dessertPage;
+	DrinksPage drinksPage;
 
 	public HomePageTest() {
 		super();
@@ -46,6 +48,7 @@ public class HomePageTest extends TestBase {
 		sidesPage = new SidesPage();
 		pastaPage = new PastaPage();
 		dessertPage = new DessertPage();
+		drinksPage = new DrinksPage();
 		
 		dealPage = new DealPage();
 		joinPage = new JoinPage();
@@ -123,6 +126,14 @@ public class HomePageTest extends TestBase {
 		boolean dessert = homePage.validateDessertsLink();
 		Assert.assertTrue(dessert);
 		dessertPage = homePage.clickOnDessertPage();
+	}
+	
+	@Test(priority=8)
+	public void drinksLinkTest() {
+		homePage.clickOnMenuLink();
+		boolean drinks = homePage.validateDrinksLink();
+		Assert.assertTrue(drinks);
+		drinksPage = homePage.clickOnDrinksPage();
 	}
 	
 	@AfterMethod()
