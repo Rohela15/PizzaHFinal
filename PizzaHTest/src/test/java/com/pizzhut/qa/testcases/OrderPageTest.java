@@ -4,7 +4,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.pizzahut.qa.pages.AddMoreFoodPage;
-import com.pizzahut.qa.pages.CheckOutPage;
+//import com.pizzahut.qa.pages.CheckOutPage;
 import com.pizzahut.qa.pages.DealPage;
 import com.pizzahut.qa.pages.HomePage;
 import com.pizzahut.qa.pages.OptionsPage;

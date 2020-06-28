@@ -4,7 +4,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.pizzahut.qa.pages.AddMoreFoodPage;
-import com.pizzahut.qa.pages.CheckOutPage;
+//import com.pizzahut.qa.pages.CheckOutPage;
 import com.pizzahut.qa.pages.CustomerInfoPage;
 import com.pizzahut.qa.pages.DealPage;
 import com.pizzahut.qa.pages.HomePage;
@@ -22,7 +22,7 @@ public class SignInPageTest extends TestBase {
 	ToppingsSelectionPage toppingpage;
 	AddMoreFoodPage addmorefoodpage;
 	OrderPage orderpage;
-	CheckOutPage checkoutpage;
+	//CheckOutPage checkoutpage;
 	SignInPage signinpage;
 	CustomerInfoPage customerinfopage;
 
