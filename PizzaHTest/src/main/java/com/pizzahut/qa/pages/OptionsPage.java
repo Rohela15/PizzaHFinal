@@ -18,6 +18,13 @@ public class OptionsPage extends TestBase {
 	@FindBy(id="find-occasion-delivery")
 	WebElement DeliveryBtn;
 	
+	@FindBy(xpath="//a[@class='btn ph-ordernow ng-scope btn-primary']")
+	WebElement OrderCarryOutBtn;
+	
+	@FindBy(id="modal-button-OK")
+	WebElement CurbsidePickupokbtn;
+	
+	
 	@FindBy(id="syo-address1")
 	WebElement address1 ;
 	
@@ -82,6 +89,14 @@ public ToppingsSelectionPage verifyAddressInputEnterToppingPage(String add,Strin
 	Accept.click();
 	return new ToppingsSelectionPage();
 	
+}
+public ToppingsSelectionPage selectcarryoutEnterToppingPage() {
+	carryoutBtn.click();
+	zipCode.sendKeys("60193");
+	findStoreBtn.click();
+	OrderCarryOutBtn.click();
+	CurbsidePickupokbtn.click();
+	return new ToppingsSelectionPage();
 }
 
 

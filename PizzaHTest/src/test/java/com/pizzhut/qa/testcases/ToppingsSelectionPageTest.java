@@ -40,8 +40,7 @@ public class ToppingsSelectionPageTest extends TestBase {
 	 
 	 dealPage=homePage.clickOnDealsLinks();
 	 optionsPage=dealPage.clickOnDealsOption();
-	 toppingpage= optionsPage.verifyAddressInputEnterToppingPage(prop.getProperty("address1"), prop.getProperty("address2"), prop.getProperty("city"), prop.getProperty("state"), prop.getProperty("zipcode"));
-	
+	 toppingpage= optionsPage.selectcarryoutEnterToppingPage();
 }
 	@Test
 	public void SelectToppingsEnterAddMorePageTest() {
@@ -49,7 +48,8 @@ public class ToppingsSelectionPageTest extends TestBase {
 	}
 	
 	@AfterMethod
-	 public void tearDown() {
+	public void tearDown() {
 			driver.quit();
-		}
+		
+	}
 }

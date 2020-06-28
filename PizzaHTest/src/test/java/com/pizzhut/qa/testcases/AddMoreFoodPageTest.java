@@ -4,6 +4,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.pizzahut.qa.pages.AddMoreFoodPage;
+import com.pizzahut.qa.pages.CheckOutPage;
 import com.pizzahut.qa.pages.DealPage;
 import com.pizzahut.qa.pages.HomePage;
 import com.pizzahut.qa.pages.OptionsPage;
@@ -19,6 +20,8 @@ public class AddMoreFoodPageTest extends TestBase {
 	ToppingsSelectionPage toppingpage;
 	AddMoreFoodPage addmorefoodpage;
 	OrderPage orderpage;
+CheckOutPage checkoutpage;
+
 
 	public AddMoreFoodPageTest() {
 		super();
@@ -33,7 +36,7 @@ public class AddMoreFoodPageTest extends TestBase {
 	 
 	 dealPage=homePage.clickOnDealsLinks();
 	 optionsPage=dealPage.clickOnDealsOption();
-	 toppingpage= optionsPage.verifyAddressInputEnterToppingPage(prop.getProperty("address1"), prop.getProperty("address2"), prop.getProperty("city"), prop.getProperty("state"), prop.getProperty("zipcode"));
+	 toppingpage= optionsPage.selectcarryoutEnterToppingPage();
 	 addmorefoodpage=toppingpage.SelectToppingsEnterAddMorePage();
 }
 	@Test

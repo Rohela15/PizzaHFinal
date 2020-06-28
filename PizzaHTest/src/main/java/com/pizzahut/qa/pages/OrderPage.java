@@ -10,15 +10,18 @@ public class OrderPage extends TestBase {
 	
 	@FindBy(id="add-more-food-top-os")
 	WebElement addmorefoodbtn;
+	
+	@FindBy(id="checkout-top-os")
+	WebElement CheckoutBtn;
 
 	public OrderPage() {
 		PageFactory.initElements(driver, this);
 }
 	
-	//public MenuPage SelectAddmorefoodbutton() {
-		//addmorefoodbtn.click();
-		//return MenuPage();
-	//}
+	public SignInPage SelectCheckoutbuttonEnterSignInPage() {
+		CheckoutBtn.click();
+		return new SignInPage();
+	}
 }
 
 
