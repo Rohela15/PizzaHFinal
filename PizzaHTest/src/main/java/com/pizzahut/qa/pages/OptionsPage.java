@@ -1,7 +1,6 @@
 package com.pizzahut.qa.pages;
 
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -12,11 +11,18 @@ public class OptionsPage extends TestBase {
 	
 	
 	@FindBy(xpath="//h1[@class='ph-margin-bottom-0 ph-margin-left-15 hidden-xs']")
-	@CacheLookup
+	//@CacheLookup
 	WebElement FindStoreText;
 	
 	@FindBy(id="find-occasion-delivery")
 	WebElement DeliveryBtn;
+	
+	@FindBy(xpath="//a[@class='btn ph-ordernow ng-scope btn-primary']")
+	WebElement OrderCarryOutBtn;
+	
+	@FindBy(id="modal-button-OK")
+	WebElement CurbsidePickupokbtn;
+	
 	
 	@FindBy(id="syo-address1")
 	WebElement address1 ;
@@ -82,6 +88,14 @@ public ToppingsSelectionPage verifyAddressInputEnterToppingPage(String add,Strin
 	Accept.click();
 	return new ToppingsSelectionPage();
 	
+}
+public ToppingsSelectionPage selectcarryoutEnterToppingPage() {
+	carryoutBtn.click();
+	zipCode.sendKeys("60193");
+	findStoreBtn.click();
+	OrderCarryOutBtn.click();
+	CurbsidePickupokbtn.click();
+	return new ToppingsSelectionPage();
 }
 
 

@@ -2,8 +2,9 @@ package com.pizzhut.qa.testcases;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
 import com.pizzahut.qa.pages.DealPage;
 import com.pizzahut.qa.pages.HomePage;
 import com.pizzahut.qa.pages.HutRewardPage;
@@ -46,6 +47,12 @@ public class DealPageTest extends TestBase {
 		Assert.assertEquals(twit, true, "twitter icon is not visible");
 		
 	}
+	
+	@Test
+	public void CheckDealOptionStatus() {
+		dealPage.checkDealOptions();
+	}
+	
 	//below method connects deal page to options page
 	@Test(priority=3)
 	public void clickonDealOption() {
