@@ -23,7 +23,7 @@ public class TestUtil extends TestBase {
 	public static long IMP_wait = 60;
 
 
-	public static String TESTDATA_SHEET_PATH = "C:\\Users\\virad\\git\\PizzaHFinal\\1\\PizzaHTest\\src\\main\\java\\com\\pizzahut\\qa\\testdata\\PizzaHutTestData.xlsx";
+	public static String TESTDATA_SHEET_PATH = "C:\\Users\\moizr\\git\\PizzaHFinal\\PizzaHTest\\src\\main\\java\\com\\pizzahut\\qa\\configuration";
 
 
 	static Workbook book;

@@ -46,10 +46,6 @@ public static void initialization(){
 	
 	if(browserName.equals("chrome")){
 
-		System.setProperty("webdriver.chrome.driver", "C:\\QA\\drivers\\chromedriver.exe");	
-		driver = new ChromeDriver();; 
-
-
 		System.setProperty("webdriver.chrome.driver", "C:\\driver2\\chromedriver.exe");	
 
 		System.setProperty("webdriver.chrome.driver", "C:\\driver2\\chromedriver.exe");	
