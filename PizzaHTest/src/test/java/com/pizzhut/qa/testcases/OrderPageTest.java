@@ -9,6 +9,7 @@ import com.pizzahut.qa.pages.DealPage;
 import com.pizzahut.qa.pages.HomePage;
 import com.pizzahut.qa.pages.OptionsPage;
 import com.pizzahut.qa.pages.OrderPage;
+import com.pizzahut.qa.pages.PizzaPage;
 import com.pizzahut.qa.pages.SignInPage;
 import com.pizzahut.qa.pages.ToppingsSelectionPage;
 import com.pizzhut.qa.base.TestBase;
@@ -21,6 +22,8 @@ public class OrderPageTest extends TestBase {
 	AddMoreFoodPage addmorefoodpage;
 	OrderPage orderpage;
 	SignInPage signinpage;
+	PizzaPage pizzaPage;
+	
 
 	public OrderPageTest() {
 		super();
@@ -32,16 +35,19 @@ public class OrderPageTest extends TestBase {
 		homePage=new HomePage();
 		dealPage = new DealPage();
 	 optionsPage = new OptionsPage();
-	 
-	 dealPage=homePage.clickOnDealsLinks();
-	 optionsPage=dealPage.clickOnDealsOption();
-	 toppingpage= optionsPage.selectcarryoutEnterToppingPage();
-	 addmorefoodpage=toppingpage.SelectToppingsEnterAddMorePage();
-	orderpage=addmorefoodpage.SelectViewOrderEnterOrderPage() ;
+	pizzaPage = new PizzaPage();
 }
 	
 	@Test
 	public void SelectCheckoutbuttonEnterSignInPageTest() {
+		dealPage=homePage.clickOnDealsLinks();
+		 optionsPage=dealPage.clickOnDealsOption();
+		 toppingpage= optionsPage.selectcarryoutEnterToppingPage();
+		 addmorefoodpage=toppingpage.SelectToppingsEnterAddMorePage();
+		orderpage=addmorefoodpage.SelectViewOrderEnterOrderPage() ;
 		signinpage=orderpage.SelectCheckoutbuttonEnterSignInPage();
 	}
+	
+	
+	
 }

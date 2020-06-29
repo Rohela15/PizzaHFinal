@@ -22,8 +22,7 @@ public class TestUtil extends TestBase {
 	public static long PLT = 40;
 	public static long IMP_wait = 60;
 
-	public static String TESTDATA_SHEET_PATH = "C:\\Users\\manju\\git\\PizzaHFinal\\PizzaHTest\\src\\main\\java\\com\\pizzahut\\qa\\testdata\\PizzaHutTestData.xlsx";
-
+	public static String TESTDATA_SHEET_PATH = "C:\\Users\\moizr\\git\\PizzaHFinal\\PizzaHTest\\src\\main\\java\\com\\pizzahut\\qa\\configuration\\config.properties";
 	static Workbook book;
 	static Sheet sheet;
 	static JavascriptExecutor js;

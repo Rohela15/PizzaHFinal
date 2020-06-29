@@ -29,13 +29,14 @@ public class DealPageTest extends TestBase {
 		dealPage = new DealPage();
 		joinPage = new JoinPage();
 		hutrewardPage = new HutRewardPage();
-		homePage=new HomePage();
-		dealPage=homePage.clickOnDealsLinks();
+		
+		
 
 	}
 
 	@Test(priority=1)
 	public void facebookIconTest() {
+		dealPage=homePage.clickOnDealsLinks();
 		dealPage.verifyFBIcon();
 
 	}
@@ -49,6 +50,7 @@ public class DealPageTest extends TestBase {
 	//below method connects deal page to options page
 	@Test(priority=3)
 	public void clickonDealOption() {
+		homePage=new HomePage();
 		optionspage=dealPage.clickOnDealsOption();
 		
 	}

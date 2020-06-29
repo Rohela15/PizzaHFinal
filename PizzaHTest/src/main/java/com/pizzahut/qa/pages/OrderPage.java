@@ -13,6 +13,9 @@ public class OrderPage extends TestBase {
 	
 	@FindBy(id="checkout-top-os")
 	WebElement CheckoutBtn;
+	
+	@FindBy(xpath="//span[@class='center-block icon-carryout-default']")
+	WebElement checkoutButton;
 
 	public OrderPage() {
 		PageFactory.initElements(driver, this);
@@ -21,6 +24,10 @@ public class OrderPage extends TestBase {
 	public SignInPage SelectCheckoutbuttonEnterSignInPage() {
 		CheckoutBtn.click();
 		return new SignInPage();
+	}
+	
+	public boolean validateCheckoutButton() {
+		return checkoutButton.isDisplayed();
 	}
 }
 

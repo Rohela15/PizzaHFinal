@@ -46,7 +46,7 @@ public static void initialization(){
 
 		System.setProperty("webdriver.chrome.driver", "C:\\driver2\\chromedriver.exe");	
 
-		System.setProperty("webdriver.chrome.driver", "C:\\driver\\chromedriver.exe");	
+		System.setProperty("webdriver.chrome.driver", "C:\\driver2\\chromedriver.exe");	
 
 		driver = new ChromeDriver(); 
 	}

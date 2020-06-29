@@ -32,18 +32,21 @@ public class OptionsPageTest extends TestBase {
 		homePage=new HomePage();
 		dealPage = new DealPage();
 	 optionsPage = new OptionsPage();
-	 dealPage=homePage.clickOnDealsLinks();
-	 optionsPage=dealPage.clickOnDealsOption();
+	
 	}
 	
 
 	@Test(priority=1)
 	public void ValidateOptionPageTitle() {
+		 dealPage=homePage.clickOnDealsLinks();
+		 optionsPage=dealPage.clickOnDealsOption();
 		String title = optionsPage.ValidateOptionPageTitle();
 		Assert.assertEquals(title, "Pizza Hut: Pizza Delivery | Pizza Carryout | Coupons | Wings & More");	}
 	
 	@Test(priority=2)
 	public void ValidateDeliverybutton() {
+		 dealPage=homePage.clickOnDealsLinks();
+		 optionsPage=dealPage.clickOnDealsOption();
 		boolean flag1=optionsPage.ValidateDeliverybutton();
 		Assert.assertTrue(flag1);
 		
@@ -51,12 +54,16 @@ public class OptionsPageTest extends TestBase {
 	
 	@Test(priority=3)
 	public void ValidateCarryoutbutton() {
+		 dealPage=homePage.clickOnDealsLinks();
+		 optionsPage=dealPage.clickOnDealsOption();
 		boolean flag=optionsPage.ValidateCarryOutButton();
 		Assert.assertTrue(flag);
 	}
 	
 	@DataProvider
 	public Object[][] getPizzaHuTestData(){
+		 dealPage=homePage.clickOnDealsLinks();
+		 optionsPage=dealPage.clickOnDealsOption();
 		Object data[][] = TestUtil.getTestData(sheetName);
 		return data;
 	}
@@ -65,6 +72,8 @@ public class OptionsPageTest extends TestBase {
 	
 	@Test (priority=4, dataProvider="getPizzaHuTestData")
 	public void ValidateAddressInput(String address1, String address2, String city, String state,String zipcode) {
+		 dealPage=homePage.clickOnDealsLinks();
+		 optionsPage=dealPage.clickOnDealsOption();
 		//toppingpage=optionsPage.verifyAddressInputEnterToppingPage(prop.getProperty("address1"), prop.getProperty("address2"), prop.getProperty("city"), prop.getProperty("state"), prop.getProperty("zipcode"));
 		toppingpage= optionsPage.verifyAddressInputEnterToppingPage(address1, address2, city, state, zipcode);
 		

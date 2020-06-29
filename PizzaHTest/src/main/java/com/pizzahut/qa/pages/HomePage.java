@@ -61,6 +61,10 @@ public class HomePage extends TestBase{
 		return menuLink.isEnabled();
 	}
 	
+	public boolean validatePizzaLink() {
+		return pizzaLink.isDisplayed();
+	}
+	
 	public PizzaPage clickOnPizzaLink() {
 		pizzaLink.click();
 		return new PizzaPage();
@@ -70,54 +74,53 @@ public class HomePage extends TestBase{
 		return pzoneLink.isEnabled();
 	}
 	
-	public PzonePage clickOnPzoneLink() {
-		pzoneLink.click();
-		return new PzonePage();
+	public void clickOnPzoneLink() {
+		pzoneLink.click();		
 	}
 	
 	public boolean validateWingsLink() {
 		return wingsLink.isEnabled();
 	}
 	
-	public WingsPage clickOnWingsLink() {
+	public void clickOnWingsLink() {
 		wingsLink.click();
-		return new WingsPage();
+		
 	}
 	
 	public boolean validateSidesLink() {
 		return sidesLink.isEnabled();
 	}
 	
-	public SidesPage clickOnSidesLink() {
+	public void clickOnSidesLink() {
 		sidesLink.click();
-		return new SidesPage();
+		
 	}
 	
 	public boolean validatePastaLink() {
 		return pastaLink.isEnabled();
 	}
 	
-	public PastaPage clickOnPastaLink() {
+	public void clickOnPastaLink() {
 		pastaLink.click();
-		return new PastaPage();
+		
 	}
 	
 	public boolean validateDessertsLink() {
 		return dessertLink.isEnabled();
 	}
 	
-	public DessertPage clickOnDessertPage() {
+	public void clickOnDessertPage() {
 		dessertLink.click();
-		return new DessertPage();
+		
 	}
 	
 	public boolean validateDrinksLink() {
 		return drinksLink.isEnabled();
 	}
 	
-	public DrinksPage clickOnDrinksPage() {
+	public void clickOnDrinksPage() {
 		drinksLink.click();
-		return new DrinksPage();
+		
 	}
 		
 	
