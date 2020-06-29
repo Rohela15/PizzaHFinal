@@ -33,30 +33,25 @@ public class HutRewardPageTest extends TestBase {
 	@Test(priority = 1)
 	public void verifyRewardPageTitleTest() {
 		String rewardPageTitle = hutrewardPage.verifyRewardPageTitle();
-		Assert.assertNotEquals(rewardPageTitle, "Pizza Hut Hut Rewards and Loyalty", "Home page title not matched");
+		Assert.assertEquals(rewardPageTitle, "Pizza Hut Hut Rewards and Loyalty", "Home page title not matched");
 
 	}
 
-	@Test
+	@Test(priority = 2)
 	public void rewardPageTextTest() {
 		hutrewardPage.rewardPageText();
 		Assert.assertTrue(true, "text is visible");
 
 	}
 
-	@Test
+	@Test(priority = 3)
 	public void SignInButtonTest() {
 		hutrewardPage.verifySignInButton();
 		Assert.assertTrue(true, "test fail sign In button is not displayed");
 	}
 
-	@Test
-	public void SignUpLinkTest() {
-		hutrewardPage.verifySignUpLink();
-		Assert.assertTrue(true, "Test fail: Sign up link is not enabled");
-	}
-
-	@Test
+	
+	//@Test
 	public void headingTest() {
 		homePage.clickOnRewardLink();
 		driver.findElement(By.id("faqstitle--drawer_1")).click();
