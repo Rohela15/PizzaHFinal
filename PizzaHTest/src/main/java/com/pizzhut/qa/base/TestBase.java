@@ -27,13 +27,11 @@ public static WebEventListener eventListener;
 public TestBase(){
 	try {
 		prop = new Properties();
-<<<<<<< HEAD
-		FileInputStream ip = new FileInputStream( "C:\\Users\\virad\\git\\PizzaHFinal\\1\\PizzaHTest\\src\\main\\java\\com\\pizzahut\\qa\\configuration\\config.properties");
-=======
+
 		FileInputStream ip = new FileInputStream( "C:\\Users\\moizr\\git\\PizzaHFinal\\PizzaHTest\\src\\main\\java\\com\\pizzahut\\qa\\configuration\\config.properties");
 
 
->>>>>>> branch 'master' of https://github.com/Rohela15/PizzaHFinal.git
+
 		prop.load(ip);
 	} catch (FileNotFoundException e) {
 		e.printStackTrace();
@@ -47,17 +45,17 @@ public static void initialization(){
 	String browserName = prop.getProperty("browser");
 	
 	if(browserName.equals("chrome")){
-<<<<<<< HEAD
+
 		System.setProperty("webdriver.chrome.driver", "C:\\QA\\drivers\\chromedriver.exe");	
 		driver = new ChromeDriver();; 
-=======
+
 
 		System.setProperty("webdriver.chrome.driver", "C:\\driver2\\chromedriver.exe");	
 
 		System.setProperty("webdriver.chrome.driver", "C:\\driver2\\chromedriver.exe");	
 
 		driver = new ChromeDriver(); 
->>>>>>> branch 'master' of https://github.com/Rohela15/PizzaHFinal.git
+
 	}
 	else if(browserName.equals("FF")){
 		System.setProperty("webdriver.gecko.driver", "C:\\QA\\drivers\\geckodriver.exe");	

@@ -17,10 +17,7 @@ public class DealPage extends TestBase {
 
 	@FindBy(id = "productATO0")
 	WebElement deal1option;
-<<<<<<< HEAD
 
-	public DealPage() {
-=======
 	
 	@FindBy(id="productATO1")
 	WebElement deal2option;
@@ -44,7 +41,7 @@ public class DealPage extends TestBase {
 	
 	
 public DealPage() {
->>>>>>> branch 'master' of https://github.com/Rohela15/PizzaHFinal.git
+
 		PageFactory.initElements(driver, this);
 	}
 
