@@ -17,8 +17,7 @@ public class HutRewardPage extends TestBase {
 	@FindBy(xpath = "//a[contains(text(),'Sign Up')]")
 	WebElement signUpLink;
 
-//	@FindBy(tagName = "h1")
-//	WebElement heading;
+
 
 	public HutRewardPage() {
 		PageFactory.initElements(driver, this);
@@ -40,7 +39,5 @@ public class HutRewardPage extends TestBase {
 		return signUpLink.isEnabled();
 	}
 
-//	public boolean hutRewardPageHeading() {
-//		return heading.getText().toString().contains("Earn Free Pizza with new Hut Rewards");
-//	}
+
 }

@@ -2,9 +2,14 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="PizzaHut Application Test Automation Test Suite" duration-ms="31858" started-at="2020-06-30T16:25:40 CDT" finished-at="2020-06-30T16:26:12 CDT">
+=======
+  <suite name="Default suite" duration-ms="19770" started-at="2020-06-29T21:12:55 CDT" finished-at="2020-06-29T21:13:14 CDT">
+>>>>>>> branch 'master' of https://github.com/Rohela15/PizzaHFinal.git
     <groups>
     </groups>
+<<<<<<< HEAD
     <test name="PizzaHut App Test Cases" duration-ms="31858" started-at="2020-06-30T16:25:40 CDT" finished-at="2020-06-30T16:26:12 CDT">
       <class name="com.pizzhut.qa.testcases.CustomerInfoPageTest">
         <test-method status="PASS" signature="setUp()[pri:0, instance:com.pizzhut.qa.testcases.CustomerInfoPageTest@71b1176b]" name="setUp" is-config="true" duration-ms="29700" started-at="2020-06-30T16:25:40 CDT" finished-at="2020-06-30T16:26:10 CDT">
@@ -18,4 +23,23 @@
       </class> <!-- com.pizzhut.qa.testcases.CustomerInfoPageTest -->
     </test> <!-- PizzaHut App Test Cases -->
   </suite> <!-- PizzaHut Application Test Automation Test Suite -->
+=======
+    <test name="Default test" duration-ms="19770" started-at="2020-06-29T21:12:55 CDT" finished-at="2020-06-29T21:13:14 CDT">
+      <class name="com.pizzhut.qa.testcases.PizzaPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pizzhut.qa.testcases.PizzaPageTest@2d6eabae]" name="setup" is-config="true" duration-ms="10114" started-at="2020-06-29T21:12:55 CDT" finished-at="2020-06-29T21:13:05 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickOnAddOrderButton()[pri:0, instance:com.pizzhut.qa.testcases.PizzaPageTest@2d6eabae]" name="clickOnAddOrderButton" duration-ms="8901" started-at="2020-06-29T21:13:05 CDT" finished-at="2020-06-29T21:13:14 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAddOrderButton -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pizzhut.qa.testcases.PizzaPageTest@2d6eabae]" name="tearDown" is-config="true" duration-ms="717" started-at="2020-06-29T21:13:14 CDT" finished-at="2020-06-29T21:13:14 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pizzhut.qa.testcases.PizzaPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+>>>>>>> branch 'master' of https://github.com/Rohela15/PizzaHFinal.git
 </testng-results>

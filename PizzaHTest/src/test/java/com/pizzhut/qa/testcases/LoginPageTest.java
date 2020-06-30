@@ -30,7 +30,7 @@ public class LoginPageTest extends TestBase {
 		Assert.assertEquals(title, "Pizza Hut: Pizza Delivery | Pizza Carryout | Coupons | Wings & More");
 	}
 
-	@Test
+	@Test(priority = 3)
 	public void pizzahutLogoImageTest() {
 		boolean image = loginpage.validatePizzahutLogoImage();
 		Assert.assertTrue(image);
