@@ -27,7 +27,7 @@ public static WebEventListener eventListener;
 public TestBase(){
 	try {
 		prop = new Properties();
-		FileInputStream ip = new FileInputStream( "C:\\Users\\moizr\\git\\PizzaHFinal\\PizzaHTest\\src\\main\\java\\com\\pizzahut\\qa\\configuration\\config.properties");
+		FileInputStream ip = new FileInputStream( "C:\\Users\\manju\\git\\PizzaHFinal\\PizzaHTest\\src\\main\\java\\com\\pizzahut\\qa\\configuration\\config.properties");
 
 
 		prop.load(ip);
@@ -44,7 +44,7 @@ public static void initialization(){
 	
 	if(browserName.equals("chrome")){
 
-		System.setProperty("webdriver.chrome.driver", "C:\\driver2\\chromedriver.exe");	
+		//System.setProperty("webdriver.chrome.driver", "C:\\driver2\\chromedriver.exe");	
 
 		System.setProperty("webdriver.chrome.driver", "C:\\driver\\chromedriver.exe");	
 
