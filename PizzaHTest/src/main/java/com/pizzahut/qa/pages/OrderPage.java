@@ -15,7 +15,10 @@ public class OrderPage extends TestBase {
 	WebElement CheckoutBtn;
 	
 	@FindBy(xpath="//span[@class='center-block icon-carryout-default']")
-	WebElement checkoutButton;
+	WebElement carryoutLink;
+	
+	@FindBy(xpath="//h1[@class='ph-margin-bottom-0 ph-margin-left-15 hidden-xs']")
+	WebElement findStoreTitle;
 
 	public OrderPage() {
 		PageFactory.initElements(driver, this);
@@ -26,9 +29,20 @@ public class OrderPage extends TestBase {
 		return new SignInPage();
 	}
 	
-	public boolean validateCheckoutButton() {
-		return checkoutButton.isDisplayed();
+	public boolean validateCarryoutLink() {
+		return carryoutLink.isEnabled();
 	}
+	
+	public boolean verifyFindStoreTitle() {
+		return findStoreTitle.isDisplayed();
+	}
+	
+	public CarryoutPage clickOnCarryoutLink() {
+		carryoutLink.click();
+		return new CarryoutPage();
+	}
+	
+		
 }
 
 

@@ -16,6 +16,9 @@ public class PizzaPage extends TestBase {
 	@FindBy(xpath="//div[@id='tile-cheese-pizza']//a[@class='btn btn-primary btnModal']")
 	WebElement orderNowButton;
 	
+	@FindBy(id="ato-cheese-pizza")
+	WebElement addOrder;
+	
 	
 	//Initializing the Page Objects
 	
@@ -35,6 +38,9 @@ public class PizzaPage extends TestBase {
 	public OrderPage clickOnOrderNowButton() {
 		orderNowButton.click();
 		return new OrderPage();
+	}
+	public void clickOnAddOrder() {
+		addOrder.click();
 	}
 
 }
