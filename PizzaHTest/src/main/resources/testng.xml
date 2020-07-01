@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PizzaHut Application Test Automation Test Suite">
+
+	<test name="PizzaHut App Test Cases">
+		<classes>
+			<class name="com.pizzhut.qa.testcases.HomePageTest"></class>
+			<class name="com.pizzhut.qa.testcases.DealPageTest"></class>
+			<class name="com.pizzhut.qa.testcases.OptionsPageTest"></class>
+			<class name="com.pizzhut.qa.testcases.ToppingsSelectionPageTest"></class>
+			<class name="com.pizzhut.qa.testcases.AddMoreFoodPageTest"></class>
+			<class name="com.pizzhut.qa.testcases.OrderPageTest"></class>
+			<class name="com.pizzhut.qa.testcases.SignInPageTest"></class>
+			<class name="com.pizzhut.qa.testcases.CustomerInfoPageTest"></class>
+			<class name="com.pizzhut.qa.testcases.HutRewardPageTest"></class>
+			<class name="com.pizzhut.qa.testcases.JoinPageTest"></class>
+			<class name="com.pizzhut.qa.testcases.LoginPageTest"></class>
+			<class name="com.pizzhut.qa.testcases.PizzaPageTest"></class> -->
+			
+
+		</classes>
+	</test>
+</suite>

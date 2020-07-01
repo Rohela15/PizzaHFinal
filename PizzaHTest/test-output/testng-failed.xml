@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
+=======
+<<<<<<< HEAD
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PizzaHut Application Test Automation Test Suite]">
+  <test thread-count="5" name="PizzaHut App Test Cases(failed)">
+>>>>>>> branch 'master' of https://github.com/Rohela15/PizzaHFinal.git
     <classes>
+<<<<<<< HEAD
       <class name="com.pizzhut.qa.testcases.HomePageTest">
         <methods>
           <include name="clickOnSignInTest"/>
@@ -10,6 +17,65 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- com.pizzhut.qa.testcases.HomePageTest -->
+=======
+      <class name="com.pizzhut.qa.testcases.SignInPageTest">
+=======
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.pizzhut.qa.testcases.OrderPageTest">
+>>>>>>> branch 'master' of https://github.com/Rohela15/PizzaHFinal.git
+        <methods>
+          <include name="setUp"/>
+          <include name="validateCarryoutLink"/>
+          <include name="verifyFindStoreTitle"/>
+        </methods>
+<<<<<<< HEAD
+      </class> <!-- com.pizzhut.qa.testcases.SignInPageTest -->
+      <class name="com.pizzhut.qa.testcases.CustomerInfoPageTest">
+        <methods>
+          <include name="EntercustinfoEnterPaymentPageTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pizzhut.qa.testcases.CustomerInfoPageTest -->
+      <class name="com.pizzhut.qa.testcases.OptionsPageTest">
+        <methods>
+          <include name="ValidateAddressInput" invocation-numbers="1"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.pizzhut.qa.testcases.OptionsPageTest -->
+      <class name="com.pizzhut.qa.testcases.OrderPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="SelectCheckoutbuttonEnterSignInPageTest"/>
+        </methods>
+      </class> <!-- com.pizzhut.qa.testcases.OrderPageTest -->
+      <class name="com.pizzhut.qa.testcases.AddMoreFoodPageTest">
+        <methods>
+          <include name="SelectViewOrderEnterOrderPageTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pizzhut.qa.testcases.AddMoreFoodPageTest -->
+      <class name="com.pizzhut.qa.testcases.HutRewardPageTest">
+        <methods>
+          <include name="headingTest"/>
+          <include name="SignUpLinkTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.pizzhut.qa.testcases.HutRewardPageTest -->
+      <class name="com.pizzhut.qa.testcases.ToppingsSelectionPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="SelectToppingsEnterAddMorePageTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.pizzhut.qa.testcases.ToppingsSelectionPageTest -->
+=======
+      </class> <!-- com.pizzhut.qa.testcases.OrderPageTest -->
+>>>>>>> branch 'master' of https://github.com/Rohela15/PizzaHFinal.git
+>>>>>>> branch 'master' of https://github.com/Rohela15/PizzaHFinal.git
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- PizzaHut App Test Cases(failed) -->
+</suite> <!-- Failed suite [PizzaHut Application Test Automation Test Suite] -->

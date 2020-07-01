@@ -40,18 +40,19 @@ public class CustomerInfoPageTest extends TestBase {
 		dealPage = new DealPage();
 	 optionsPage = new OptionsPage();
 	 
-	 dealPage=homePage.clickOnDealsLinks();
-	 optionsPage=dealPage.clickOnDealsOption();
-	 toppingpage= optionsPage.selectcarryoutEnterToppingPage();
-	 addmorefoodpage=toppingpage.SelectToppingsEnterAddMorePage();
-	orderpage=addmorefoodpage.SelectViewOrderEnterOrderPage() ;
-	signinpage=orderpage.SelectCheckoutbuttonEnterSignInPage();
-	customerinfopage=signinpage.SelectCtnAsGuestBtnEnterCustomerInfoPagee();
+	 
 	
 }
 	
 	@Test
 	public void EntercustinfoEnterPaymentPageTest() {
+		dealPage=homePage.clickOnDealsLinks();
+		 optionsPage=dealPage.clickOnDealsOption();
+		 toppingpage= optionsPage.selectcarryoutEnterToppingPage();
+		 addmorefoodpage=toppingpage.SelectToppingsEnterAddMorePage();
+		orderpage=addmorefoodpage.SelectViewOrderEnterOrderPage() ;
+		signinpage=orderpage.SelectCheckoutbuttonEnterSignInPage();
+		customerinfopage=signinpage.SelectCtnAsGuestBtnEnterCustomerInfoPagee();
 		paymentpage=customerinfopage.EntercustinfoEnterPaymentPage();
 		
 

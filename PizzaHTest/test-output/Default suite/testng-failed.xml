@@ -3,13 +3,31 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.pizzhut.qa.testcases.HomePageTest">
+<<<<<<< HEAD
+      <class name="com.pizzhut.qa.testcases.CustomerInfoPageTest">
         <methods>
+<<<<<<< HEAD
           <include name="clickOnSignInTest"/>
           <include name="tearDown"/>
+=======
+          <include name="EntercustinfoEnterPaymentPageTest"/>
+>>>>>>> branch 'master' of https://github.com/Rohela15/PizzaHFinal.git
           <include name="setUp"/>
         </methods>
+<<<<<<< HEAD
       </class> <!-- com.pizzhut.qa.testcases.HomePageTest -->
+=======
+      </class> <!-- com.pizzhut.qa.testcases.CustomerInfoPageTest -->
+=======
+      <class name="com.pizzhut.qa.testcases.OrderPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="validateCarryoutLink"/>
+          <include name="verifyFindStoreTitle"/>
+        </methods>
+      </class> <!-- com.pizzhut.qa.testcases.OrderPageTest -->
+>>>>>>> branch 'master' of https://github.com/Rohela15/PizzaHFinal.git
+>>>>>>> branch 'master' of https://github.com/Rohela15/PizzaHFinal.git
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

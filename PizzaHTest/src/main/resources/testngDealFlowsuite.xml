@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PizzaHut Application Test Automation Test Suite">
+
+	<test name="PizzaHut App Test Cases">
+		<classes>
+			
+			<class name="com.pizzhut.qa.testcases.CustomerInfoPageTest"></class>
+			
+
+		</classes>
+	</test>
+</suite>

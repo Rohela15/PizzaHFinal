@@ -22,7 +22,9 @@ public class TestUtil extends TestBase {
 	public static long PLT = 40;
 	public static long IMP_wait = 60;
 
-	public static String TESTDATA_SHEET_PATH = "C:\\Users\\virad\\git\\PizzaHFinal\\1\\PizzaHTest\\src\\main\\java\\com\\pizzahut\\qa\\testdata\\PizzaHutTestData.xlsx";
+
+	public static String TESTDATA_SHEET_PATH = "C:\\Users\\manju\\git\\PizzaHFinal\\PizzaHTest\\src\\main\\java\\com\\pizzahut\\qa\\testdata\\PizzaHutTestData.xlsx";
+
 
 	static Workbook book;
 	static Sheet sheet;
@@ -47,7 +49,7 @@ public class TestUtil extends TestBase {
 		for (int i = 0; i < sheet.getLastRowNum(); i++) {
 			for (int k = 0; k < sheet.getRow(0).getLastCellNum(); k++) {
 				data[i][k] = sheet.getRow(i + 1).getCell(k).toString();
-				// System.out.println(data[i][k]);
+				//System.out.println(data[i][k]);
 			}
 		}
 		return data;

@@ -33,14 +33,15 @@ public class AddMoreFoodPageTest extends TestBase {
 		homePage=new HomePage();
 		dealPage = new DealPage();
 	 optionsPage = new OptionsPage();
-	 
 	 dealPage=homePage.clickOnDealsLinks();
 	 optionsPage=dealPage.clickOnDealsOption();
 	 toppingpage= optionsPage.selectcarryoutEnterToppingPage();
 	 addmorefoodpage=toppingpage.SelectToppingsEnterAddMorePage();
+	 
 }
 	@Test
 	public void SelectViewOrderEnterOrderPageTest() {
+		
 		orderpage=addmorefoodpage.SelectViewOrderEnterOrderPage();
 		
 	}
