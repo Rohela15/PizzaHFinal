@@ -11,7 +11,7 @@ import com.pizzahut.qa.pages.OrderPage;
 import com.pizzahut.qa.pages.PizzaPage;
 import com.pizzhut.qa.base.TestBase;
 
-import junit.framework.Assert;
+import org.testng.Assert;
 
 public class FinalOrderPageTest extends TestBase{
 	HomePage homePage;
