@@ -8,12 +8,17 @@ import com.pizzhut.qa.base.TestBase;
 
 public class LoginPage extends TestBase{
 	
+	HomePage homePage;
+	
 	//Page Factory - OR:object repository
 		@FindBy(name="email")
 		WebElement userName;
 		
 		@FindBy(name="password")
 		WebElement password;
+		
+		
+		
 		
 		
 		
@@ -43,5 +48,7 @@ public class LoginPage extends TestBase{
 			password.sendKeys(pwd);
 			//loginBtn.click();
 		}
+
+		
 		
 }

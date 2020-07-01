@@ -20,7 +20,7 @@ public class AddMoreFoodPageTest extends TestBase {
 	ToppingsSelectionPage toppingpage;
 	AddMoreFoodPage addmorefoodpage;
 	OrderPage orderpage;
-//CheckOutPage checkoutpage;
+
 
 
 	public AddMoreFoodPageTest() {

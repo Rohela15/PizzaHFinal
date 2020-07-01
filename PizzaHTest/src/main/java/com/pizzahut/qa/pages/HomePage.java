@@ -44,6 +44,9 @@ public class HomePage extends TestBase{
 	@FindBy(xpath="//a[@id='ph-hutrewards-link']")
 	WebElement hutRewardLink;
 	
+	@FindBy(xpath="//span[contains(text(),'sign in')]")
+	WebElement Signin;
+	
 	
 	//Initializing the page object
 	
@@ -135,6 +138,10 @@ public class HomePage extends TestBase{
 	public HutRewardPage clickOnRewardLink() {
 		hutRewardLink.click();
 		return new HutRewardPage();
+	}
+	public LoginPage clickOnSingInButton() {
+		Signin.click();
+		return new LoginPage();
 	}
 	
 	

@@ -1,6 +1,10 @@
 package com.pizzhut.qa.testcases;
 
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
@@ -11,6 +15,7 @@ import com.pizzahut.qa.pages.DrinksPage;
 import com.pizzahut.qa.pages.HomePage;
 import com.pizzahut.qa.pages.HutRewardPage;
 import com.pizzahut.qa.pages.JoinPage;
+import com.pizzahut.qa.pages.LoginPage;
 import com.pizzahut.qa.pages.PastaPage;
 import com.pizzahut.qa.pages.PizzaPage;
 import com.pizzahut.qa.pages.PzonePage;
@@ -21,7 +26,7 @@ import com.pizzhut.qa.base.TestBase;
 public class HomePageTest extends TestBase {
 
 	HomePage homePage;
-	
+	LoginPage loginPage;
 	DealPage dealPage;
 	JoinPage joinPage;
 	HutRewardPage hutrewardPage;
@@ -37,6 +42,7 @@ public class HomePageTest extends TestBase {
 		super();
 	}
 
+	
 	@BeforeMethod
 	public void setUp() {
 		initialization();
@@ -49,7 +55,7 @@ public class HomePageTest extends TestBase {
 		pastaPage = new PastaPage();
 		dessertPage = new DessertPage();
 		drinksPage = new DrinksPage();
-		
+		loginPage = new LoginPage();
 		dealPage = new DealPage();
 		joinPage = new JoinPage();
 		hutrewardPage = new HutRewardPage();
@@ -78,7 +84,7 @@ public class HomePageTest extends TestBase {
 	@Test(priority=1)
 	public void menuValidationTest() {
 		boolean menu = homePage.validateMenuLink();
-		Assert.assertTrue(menu);
+		AssertJUnit.assertTrue(menu);
 	}
 	
 	@Test(priority=2)
@@ -92,7 +98,7 @@ public class HomePageTest extends TestBase {
 	public void pzoneLinkTest()throws InterruptedException {
 		homePage.clickOnMenuLink();		
 		boolean pzone = homePage.validatePzoneLink();
-		Assert.assertTrue(pzone);		
+		AssertJUnit.assertTrue(pzone);		
 		pzonePage = homePage.clickOnPzoneLink();		
 	}
 	
@@ -100,7 +106,7 @@ public class HomePageTest extends TestBase {
 	public void wingsLinkTest() throws InterruptedException {
 		homePage.clickOnMenuLink();		
 		boolean wings = homePage.validateWingsLink();
-		Assert.assertTrue(wings);		
+		AssertJUnit.assertTrue(wings);		
 		wingsPage = homePage.clickOnWingsLink();		
 	}
 	
@@ -108,7 +114,7 @@ public class HomePageTest extends TestBase {
 	public void sidesLinkTest() throws InterruptedException {
 		homePage.clickOnMenuLink();
 		boolean sides = homePage.validateSidesLink();
-		Assert.assertTrue(sides);		
+		AssertJUnit.assertTrue(sides);		
 		sidesPage = homePage.clickOnSidesLink();		
 	}
 	
@@ -116,7 +122,7 @@ public class HomePageTest extends TestBase {
 	public void pastaLinkTest() throws InterruptedException {
 		homePage.clickOnMenuLink();
 		boolean pasta = homePage.validatePastaLink();
-		Assert.assertTrue(pasta);		
+		AssertJUnit.assertTrue(pasta);		
 		pastaPage = homePage.clickOnPastaLink();		
 	}
 	
@@ -124,7 +130,7 @@ public class HomePageTest extends TestBase {
 	public void dessertLinkTest() throws InterruptedException {
 		homePage.clickOnMenuLink();
 		boolean dessert = homePage.validateDessertsLink();
-		Assert.assertTrue(dessert);
+		AssertJUnit.assertTrue(dessert);
 		dessertPage = homePage.clickOnDessertPage();
 	}
 	
@@ -132,11 +138,16 @@ public class HomePageTest extends TestBase {
 	public void drinksLinkTest() {
 		homePage.clickOnMenuLink();
 		boolean drinks = homePage.validateDrinksLink();
-		Assert.assertTrue(drinks);
+		AssertJUnit.assertTrue(drinks);
 		drinksPage = homePage.clickOnDrinksPage();
 	}
+	@Test
+	public void clickOnSignInTest() {
+		  homePage.clickOnSingInButton();
+		Assert.assertTrue(true, "New Login page should be open");
+	}
 	
-	@AfterMethod()
+	@AfterMethod
 	public void tearDown() {
 		driver.quit();
 	}

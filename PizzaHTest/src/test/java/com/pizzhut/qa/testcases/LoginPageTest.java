@@ -6,11 +6,13 @@ import org.testng.annotations.BeforeMethod;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 
+import com.pizzahut.qa.pages.HomePage;
 import com.pizzahut.qa.pages.LoginPage;
 import com.pizzhut.qa.base.TestBase;
 
 public class LoginPageTest extends TestBase {
 	LoginPage loginpage;
+	HomePage homePage;
 
 	public LoginPageTest() {
 		super();
@@ -21,6 +23,7 @@ public class LoginPageTest extends TestBase {
 		initialization();
 
 		loginpage = new LoginPage();
+		homePage = new HomePage();
 	}
 
 	@Test(priority = 1)

@@ -1,355 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
-=======
-<<<<<<< HEAD
-<testng-results skipped="1" failed="0" ignored="0" total="7" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite name="Default suite" duration-ms="46030" started-at="2020-06-29T10:54:33 CDT" finished-at="2020-06-29T10:55:19 CDT">
-=======
-  <suite name="Default suite" duration-ms="237194" started-at="2020-06-27T15:24:14 CDT" finished-at="2020-06-27T15:28:11 CDT">
->>>>>>> branch 'master' of https://github.com/Rohela15/PizzaHFinal.git
+  <suite name="Default suite" duration-ms="22399" started-at="2020-06-30T21:24:34 CDT" finished-at="2020-06-30T21:24:57 CDT">
     <groups>
     </groups>
-<<<<<<< HEAD
-    <test name="Default test" duration-ms="46030" started-at="2020-06-29T10:54:33 CDT" finished-at="2020-06-29T10:55:19 CDT">
-      <class name="com.pizzhut.qa.testcases.HutRewardPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pizzhut.qa.testcases.HutRewardPageTest@64729b1e]" name="setUp" is-config="true" duration-ms="9298" started-at="2020-06-29T10:54:33 CDT" finished-at="2020-06-29T10:54:43 CDT">
-=======
-    <test name="Default test" duration-ms="237194" started-at="2020-06-27T15:24:14 CDT" finished-at="2020-06-27T15:28:11 CDT">
+    <test name="Default test" duration-ms="22399" started-at="2020-06-30T21:24:34 CDT" finished-at="2020-06-30T21:24:57 CDT">
       <class name="com.pizzhut.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pizzhut.qa.testcases.HomePageTest@71bbf57e]" name="setUp" is-config="true" duration-ms="30627" started-at="2020-06-27T15:24:14 CDT" finished-at="2020-06-27T15:24:45 CDT">
->>>>>>> branch 'master' of https://github.com/Rohela15/PizzaHFinal.git
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pizzhut.qa.testcases.HomePageTest@64729b1e]" name="setUp" is-config="true" duration-ms="10597" started-at="2020-06-30T21:24:34 CDT" finished-at="2020-06-30T21:24:45 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-<<<<<<< HEAD
-        <test-method status="FAIL" signature="verifyRewardPageTitleTest()[pri:1, instance:com.pizzhut.qa.testcases.HutRewardPageTest@64729b1e]" name="verifyRewardPageTitleTest" duration-ms="23" started-at="2020-06-29T10:54:43 CDT" finished-at="2020-06-29T10:54:43 CDT">
-          <exception class="java.lang.AssertionError">
-=======
-        <test-method status="PASS" signature="menuValidationTest()[pri:1, instance:com.pizzhut.qa.testcases.HomePageTest@71bbf57e]" name="menuValidationTest" duration-ms="216" started-at="2020-06-27T15:24:45 CDT" finished-at="2020-06-27T15:24:45 CDT">
+        <test-method status="PASS" signature="clickOnSignInTest()[pri:0, instance:com.pizzhut.qa.testcases.HomePageTest@64729b1e]" name="clickOnSignInTest" duration-ms="780" started-at="2020-06-30T21:24:45 CDT" finished-at="2020-06-30T21:24:46 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- menuValidationTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pizzhut.qa.testcases.HomePageTest@71bbf57e]" name="tearDown" is-config="true" duration-ms="1554" started-at="2020-06-27T15:24:45 CDT" finished-at="2020-06-27T15:24:46 CDT">
+        </test-method> <!-- clickOnSignInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pizzhut.qa.testcases.HomePageTest@64729b1e]" name="tearDown" is-config="true" duration-ms="761" started-at="2020-06-30T21:24:46 CDT" finished-at="2020-06-30T21:24:47 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pizzhut.qa.testcases.HomePageTest@71bbf57e]" name="setUp" is-config="true" duration-ms="18217" started-at="2020-06-27T15:24:46 CDT" finished-at="2020-06-27T15:25:05 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pizzhut.qa.testcases.HomePageTest@64729b1e]" name="setUp" is-config="true" duration-ms="8960" started-at="2020-06-30T21:24:47 CDT" finished-at="2020-06-30T21:24:56 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="menuLinkTest()[pri:2, instance:com.pizzhut.qa.testcases.HomePageTest@71bbf57e]" name="menuLinkTest" duration-ms="4605" started-at="2020-06-27T15:25:05 CDT" finished-at="2020-06-27T15:25:09 CDT">
+        <test-method status="PASS" signature="dealsLinkTest()[pri:0, instance:com.pizzhut.qa.testcases.HomePageTest@64729b1e]" name="dealsLinkTest" duration-ms="537" started-at="2020-06-30T21:24:56 CDT" finished-at="2020-06-30T21:24:56 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- menuLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pizzhut.qa.testcases.HomePageTest@71bbf57e]" name="tearDown" is-config="true" duration-ms="1053" started-at="2020-06-27T15:25:09 CDT" finished-at="2020-06-27T15:25:10 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pizzhut.qa.testcases.HomePageTest@71bbf57e]" name="setUp" is-config="true" duration-ms="13020" started-at="2020-06-27T15:25:10 CDT" finished-at="2020-06-27T15:25:23 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="pzoneLinkTest()[pri:3, instance:com.pizzhut.qa.testcases.HomePageTest@71bbf57e]" name="pzoneLinkTest" duration-ms="6560" started-at="2020-06-27T15:25:23 CDT" finished-at="2020-06-27T15:25:30 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pzoneLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pizzhut.qa.testcases.HomePageTest@71bbf57e]" name="tearDown" is-config="true" duration-ms="1468" started-at="2020-06-27T15:25:30 CDT" finished-at="2020-06-27T15:25:31 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pizzhut.qa.testcases.HomePageTest@71bbf57e]" name="setUp" is-config="true" duration-ms="13987" started-at="2020-06-27T15:25:31 CDT" finished-at="2020-06-27T15:25:45 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="wingsLinkTest()[pri:4, instance:com.pizzhut.qa.testcases.HomePageTest@71bbf57e]" name="wingsLinkTest" duration-ms="5739" started-at="2020-06-27T15:25:45 CDT" finished-at="2020-06-27T15:25:51 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- wingsLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pizzhut.qa.testcases.HomePageTest@71bbf57e]" name="tearDown" is-config="true" duration-ms="1022" started-at="2020-06-27T15:25:51 CDT" finished-at="2020-06-27T15:25:52 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pizzhut.qa.testcases.HomePageTest@71bbf57e]" name="setUp" is-config="true" duration-ms="13934" started-at="2020-06-27T15:25:52 CDT" finished-at="2020-06-27T15:26:06 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="sidesLinkTest()[pri:5, instance:com.pizzhut.qa.testcases.HomePageTest@71bbf57e]" name="sidesLinkTest" duration-ms="6830" started-at="2020-06-27T15:26:06 CDT" finished-at="2020-06-27T15:26:13 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sidesLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pizzhut.qa.testcases.HomePageTest@71bbf57e]" name="tearDown" is-config="true" duration-ms="1295" started-at="2020-06-27T15:26:13 CDT" finished-at="2020-06-27T15:26:14 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pizzhut.qa.testcases.HomePageTest@71bbf57e]" name="setUp" is-config="true" duration-ms="11516" started-at="2020-06-27T15:26:14 CDT" finished-at="2020-06-27T15:26:26 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="pastaLinkTest()[pri:6, instance:com.pizzhut.qa.testcases.HomePageTest@71bbf57e]" name="pastaLinkTest" duration-ms="6683" started-at="2020-06-27T15:26:26 CDT" finished-at="2020-06-27T15:26:32 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pastaLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pizzhut.qa.testcases.HomePageTest@71bbf57e]" name="tearDown" is-config="true" duration-ms="955" started-at="2020-06-27T15:26:32 CDT" finished-at="2020-06-27T15:26:33 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.pizzhut.qa.testcases.HomePageTest@71bbf57e]" name="setUp" is-config="true" duration-ms="97804" started-at="2020-06-27T15:26:33 CDT" finished-at="2020-06-27T15:28:11 CDT">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Cannot locate an element using id=lg-nav-deals
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-BLUPISGV', ip: '192.168.0.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using id=lg-nav-deals
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-BLUPISGV', ip: '192.168.0.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-at org.openqa.selenium.By$ById.findElement(By.java:188)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.click(Unknown Source)
-at com.pizzahut.qa.pages.HomePage.clickOnDealsLinks(HomePage.java:121)
-at com.pizzhut.qa.testcases.HomePageTest.setUp(HomePageTest.java:53)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:64)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:364)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:318)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:767)
-at org.testng.TestRunner.run(TestRunner.java:588)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-at org.testng.TestNG.runSuites(TestNG.java:1066)
-at org.testng.TestNG.run(TestNG.java:1034)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="dessertLinkTest()[pri:7, instance:com.pizzhut.qa.testcases.HomePageTest@71bbf57e]" name="dessertLinkTest" duration-ms="0" started-at="2020-06-27T15:28:11 CDT" finished-at="2020-06-27T15:28:11 CDT">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Cannot locate an element using id=lg-nav-deals
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-BLUPISGV', ip: '192.168.0.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using id=lg-nav-deals
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-BLUPISGV', ip: '192.168.0.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-at org.openqa.selenium.By$ById.findElement(By.java:188)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.click(Unknown Source)
-at com.pizzahut.qa.pages.HomePage.clickOnDealsLinks(HomePage.java:121)
-at com.pizzhut.qa.testcases.HomePageTest.setUp(HomePageTest.java:53)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:64)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:364)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:318)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:767)
-at org.testng.TestRunner.run(TestRunner.java:588)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-at org.testng.TestNG.runSuites(TestNG.java:1066)
-at org.testng.TestNG.run(TestNG.java:1034)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dessertLinkTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.pizzhut.qa.testcases.HomePageTest@71bbf57e]" name="tearDown" is-config="true" duration-ms="-1593289691650" started-at="2020-06-27T15:28:11 CDT" finished-at="1969-12-31T18:00:00 CST">
+        </test-method> <!-- dealsLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pizzhut.qa.testcases.HomePageTest@64729b1e]" name="tearDown" is-config="true" duration-ms="707" started-at="2020-06-30T21:24:56 CDT" finished-at="2020-06-30T21:24:57 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.pizzhut.qa.testcases.HomePageTest -->
-=======
-<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
->>>>>>> branch 'master' of https://github.com/Rohela15/PizzaHFinal.git
-  <reporter-output>
-  </reporter-output>
-  <suite name="Default suite" duration-ms="33305" started-at="2020-06-28T01:45:34Z" finished-at="2020-06-28T01:46:07Z">
-    <groups>
-    </groups>
-    <test name="Default test" duration-ms="33305" started-at="2020-06-28T01:45:34Z" finished-at="2020-06-28T01:46:07Z">
-      <class name="com.pizzhut.qa.testcases.CustomerInfoPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pizzhut.qa.testcases.CustomerInfoPageTest@5ef60048]" name="setUp" is-config="true" duration-ms="31112" started-at="2020-06-27T20:45:34Z" finished-at="2020-06-27T20:46:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="EntercustinfoEnterPaymentPageTest()[pri:0, instance:com.pizzhut.qa.testcases.CustomerInfoPageTest@5ef60048]" name="EntercustinfoEnterPaymentPageTest" duration-ms="2161" started-at="2020-06-27T20:46:05Z" finished-at="2020-06-27T20:46:07Z">
-          <reporter-output>
-          </reporter-output>
-<<<<<<< HEAD
-        </test-method> <!-- EntercustinfoEnterPaymentPageTest -->
-      </class> <!-- com.pizzhut.qa.testcases.CustomerInfoPageTest -->
-=======
-        </test-method> <!-- facebookIconTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pizzhut.qa.testcases.DealPageTest@1d548a08]" name="tearDown" is-config="true" duration-ms="759" started-at="2020-06-26T01:02:02Z" finished-at="2020-06-26T01:02:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pizzhut.qa.testcases.DealPageTest@1d548a08]" name="setUp" is-config="true" duration-ms="12801" started-at="2020-06-26T01:02:03Z" finished-at="2020-06-26T01:02:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="twitterIconTest()[pri:2, instance:com.pizzhut.qa.testcases.DealPageTest@1d548a08]" name="twitterIconTest" duration-ms="970" started-at="2020-06-26T01:02:16Z" finished-at="2020-06-26T01:02:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- twitterIconTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pizzhut.qa.testcases.DealPageTest@1d548a08]" name="tearDown" is-config="true" duration-ms="1313" started-at="2020-06-26T01:02:17Z" finished-at="2020-06-26T01:02:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pizzhut.qa.testcases.DealPageTest@1d548a08]" name="setUp" is-config="true" duration-ms="14507" started-at="2020-06-26T01:02:18Z" finished-at="2020-06-26T01:02:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="clickonDealOption()[pri:3, instance:com.pizzhut.qa.testcases.DealPageTest@1d548a08]" name="clickonDealOption" duration-ms="61126" started-at="2020-06-26T01:02:32Z" finished-at="2020-06-26T01:03:34Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
->>>>>>> branch 'master' of https://github.com/Rohela15/PizzaHFinal.git
-            <message>
-              <![CDATA[Home page title not matched expected [Pizza Hut Hut Rewards and Loyalty] but found [Pizza Hut: Pizza Delivery | Pizza Carryout | Coupons | Wings & More]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Home page title not matched expected [Pizza Hut Hut Rewards and Loyalty] but found [Pizza Hut: Pizza Delivery | Pizza Carryout | Coupons | Wings & More]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:575)
-at com.pizzhut.qa.testcases.HutRewardPageTest.verifyRewardPageTitleTest(HutRewardPageTest.java:36)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:767)
-at org.testng.TestRunner.run(TestRunner.java:588)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-at org.testng.TestNG.runSuites(TestNG.java:1066)
-at org.testng.TestNG.run(TestNG.java:1034)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRewardPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pizzhut.qa.testcases.HutRewardPageTest@64729b1e]" name="tearDown" is-config="true" duration-ms="643" started-at="2020-06-29T10:54:43 CDT" finished-at="2020-06-29T10:54:43 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-<<<<<<< HEAD
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pizzhut.qa.testcases.HutRewardPageTest@64729b1e]" name="setUp" is-config="true" duration-ms="8185" started-at="2020-06-29T10:54:43 CDT" finished-at="2020-06-29T10:54:51 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="rewardPageTextTest()[pri:2, instance:com.pizzhut.qa.testcases.HutRewardPageTest@64729b1e]" name="rewardPageTextTest" duration-ms="2050" started-at="2020-06-29T10:54:51 CDT" finished-at="2020-06-29T10:54:53 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- rewardPageTextTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pizzhut.qa.testcases.HutRewardPageTest@64729b1e]" name="tearDown" is-config="true" duration-ms="691" started-at="2020-06-29T10:54:53 CDT" finished-at="2020-06-29T10:54:54 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pizzhut.qa.testcases.HutRewardPageTest@64729b1e]" name="setUp" is-config="true" duration-ms="22080" started-at="2020-06-29T10:54:54 CDT" finished-at="2020-06-29T10:55:16 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SignInButtonTest()[pri:3, instance:com.pizzhut.qa.testcases.HutRewardPageTest@64729b1e]" name="SignInButtonTest" duration-ms="2338" started-at="2020-06-29T10:55:16 CDT" finished-at="2020-06-29T10:55:19 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SignInButtonTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pizzhut.qa.testcases.HutRewardPageTest@64729b1e]" name="tearDown" is-config="true" duration-ms="678" started-at="2020-06-29T10:55:19 CDT" finished-at="2020-06-29T10:55:19 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.pizzhut.qa.testcases.HutRewardPageTest -->
-=======
-      </class> <!-- com.pizzhut.qa.testcases.DealPageTest -->
->>>>>>> branch 'master' of https://github.com/Rohela15/PizzaHFinal.git
->>>>>>> branch 'master' of https://github.com/Rohela15/PizzaHFinal.git
->>>>>>> branch 'master' of https://github.com/Rohela15/PizzaHFinal.git
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
